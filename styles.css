@@ -1,0 +1,75 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+/* Section Titles in Light Yellow */
+h2, h3 {
+    color: #f7e69d;
+    margin-bottom: 10px;
+}
+
+/* Profile Section */
+#profile p {
+    margin-bottom: 20px;
+}
+
+/* Skills Section */
+#skills ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#skills li {
+    background-color: #f4f4f4;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Projects Section */
+#projects .project {
+    margin-bottom: 20px;
+}
+
+/* Experience Section */
+#experience .job {
+    margin-bottom: 20px;
+}
+
+/* Education Section */
+#education p {
+    margin-top: 10px;
+}
